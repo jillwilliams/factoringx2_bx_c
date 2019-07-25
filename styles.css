@@ -1,0 +1,194 @@
+body {
+    background-color: slategray;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    font-family: 'Architects Daughter';
+    margin-left: 40px;
+    margin-right: 30px;
+}
+/* TEXT:     TITLE AT TOP OF PAGE:   FACTORING X^2 + BX + C */
+p {
+    color: black;
+    font-size: 1.5rem;
+    text-shadow: 0.5px 0.5px 0.5px lawngreen;
+    text-align: center;
+}
+/* IMAGE:   DIAMOND MATH CONCEPT DIAGRAM */
+#img1 {
+    width: 10rem;
+    height: auto;
+    border: 2px black solid;
+    outline: 1px red solid;
+    margin: 10px;
+}
+/* IMAGE:     DIAMOND MATH WITH GREY CIRCLES */
+#img2 {
+    width: 11rem;
+    height: 13.5rem;
+    border: 2px black solid;
+    outline: 1px red solid;
+    margin: 10px;
+}
+/* TEXT PARAGRAPH:      EXAMPLE #1 EXPLANATION */
+h1 {
+    font-size: 1.2rem;
+    color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/* TEXT:  EXAMPLE 1 FACTOR X^2 + 5X + 6 */
+#example1 {
+    font-size: 1.3rem;
+    margin-left: 40px;
+    color: black;
+    text-shadow: 0.5px 0.5px 0.5px red;
+    text-align: left;
+}
+
+/* IMAGE:     DIAMOND MATH EMPTY CONCEPT DIAGRAM */
+#diamondMathDiagram {
+    width: 11rem;
+    height: 13.5rem;
+    border: 2px black solid;
+    outline: 1px red solid;
+    margin: 10px;
+}
+/* IMAGE:     EXAMPLE 1 FILLED IN WITH 5 AND 6. */
+#exampleOneDiagram {
+    width: 11rem;
+    height: 13.5rem;
+    border: 2px black solid;
+    outline: 1px red solid;
+    margin: 10px;
+}
+/* TEXT-BOX:    ENTER THE FIRST AND SECOND NUMBERS */
+#varA {
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    color: white;
+    background: black;
+    border: 2px red solid;
+    outline: 2px white solid;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 15px;
+    padding: 10px;
+}
+#varB {
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    color: white;
+    background: black;
+    border: 2px red solid;
+    outline: 2px white solid;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 10px;
+}
+/* TEXT:          FIRST NUMBER, SECOND NUMBER */
+#numberText {
+    font-size: 1rem;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+/* BUTTON:  CHECK YOUR ANSWER */
+#checkAnswer {
+    width: 52%;
+    height: 105px;
+    font-size: 0.8rem;
+    color: red;
+    background-color: black;
+    border: 3px white solid;
+    outline: 2px red solid;
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+    font-family: 'Architects Daughter';
+}
+/* BUTTON ON HOVER:  STYLE CHANGES */
+#checkAnswer:hover {
+    color: black;
+    background-color: ivory;
+    border: 2px red solid;
+    outline: 1px black solid;
+}
+/* TEXT-BOX OUTPUT:     ANSWER MESSAGE TO STUDENT */
+#demo {
+    width: 6rem;
+    height: 60px;
+    background-color: black;
+    border: 2px red solid;
+    outline: 2px white solid;
+    color: white;
+    font-size: 1rem;
+    padding: 20px;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: -50px;
+}
+/* BUTTON:      REVEAL THE SOLUTION */
+#solutionPic {
+    width: 6rem;
+    height: 6rem;
+    font-size: 1rem;
+    color: red;
+    background-color: black;
+    border: 3px slategray solid;
+    outline: 2px white solid;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    display: block;
+}
+/* BUTTON ON HOVER:  STYLE CHANGES */
+#solutionPic:hover {
+    color: black;
+    background-color: ivory;
+    border: 2px red solid;
+    outline: 1px black solid;
+    text-align: center;
+}
+/* TEXT-BOX OUTPUT:        REVEALS THE SOLUTION   */
+#demo2 {
+    width: 8.3rem;
+    height: 4rem;
+    font-size: 1.1rem;
+    color: white;
+    background-color: black;
+    border: 3px slategray solid;
+    outline: 2px white solid;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    font-display: bold;
+    display: block;
+    letter-spacing: 3px;
+}
+/* TABLE:     CONTAINER FOR THE ENTRY-BOXES/OUTPUT BOXES */
+#tableId {
+    column-width: 25%;
+    margin: auto;
+    padding: 20 px;
+}
+#revealAnswer:hover {
+    width: 6rem;
+    height: 5rem;
+    font-size: 1rem;
+    color: black;
+    background-color: ivory;
+    border: 2px red solid;
+    outline: 1px black solid;
+    text-align: center;
+    align-content: space-around;
+    padding: 15px;
+    margin: 10px;
+    margin-left: 10px;
+}

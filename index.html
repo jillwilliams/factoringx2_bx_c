@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" Unicode="U+00A9, UTF-8: C2 A9" Unicode="U+2197 U+FE0E UTF-8: E2 86 97 EF B8 8E" Unicode="U+2198 U+FE0E, UTF-8: E2 86 98 EF B8 8E" Unicode="U+220F, UTF-8: E2 88 8F">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Shadows+Into+Light|Permanent+Marker|Amatic+SC|Caveat|Kalam|Nosifer|Sniglet|Satisfy|Architects+Daughter|Bilbo|Patrick+Hand" rel="stylesheet">
+    <title>Factoring x<sup>2</sup> + bx + c</title>
+    <link rel="stylesheet" HREF="./styles.css">
+</head>
+<body>
+    <p>
+        Factoring x<sup>2</sup> + bx + c using "Diamond Math"
+    </p>
+    <p>
+        Factoring a Polynomial, an expression with more than one term in it, is the opposite of using FOIL to multiply two expressions like (x + 4)(x +3). 
+    </p>
+    <p>
+        The reason FOIL works is based on simple elementary school concepts that you may have learned but long forgotten by the time you got to the FOIL-ing concept of multiplying 2 expressions together properly in order to get the correct answer.  
+    </p>
+    <p>
+        So. let's go back in time to review these simple concepts 
+    </p>
+    <p>
+        <img src="./images/diamondmath1.png" alt="diamondmath1" id="img1" />
+        <img src="./images/diamondmath2.png" alt="diamondmath2" id="img2" />
+    </p>
+
+    <h1>
+        Example: Enter the values of variables b and c into each box as shown in the diamond math examples above. Enter them into their boxes in the diagram to the left. You must make sure the first number in the problem goes on the top, the second number goes on the bottom. Always fill in the values from top to bottom in the diagram as you read the problem you are factoring from left to right.
+    </h1>
+    <div id="example1">
+        Example #1: Factor: x<sup>2</sup> + 5x + 6
+    </div>
+    <p>
+        <img src="./images/diamondmath_empty.png" alt="diagram" id="diamondMathDiagram" />
+        <img src="./images/example1.png" alt="ex1" id="exampleOneDiagram" />
+    </p>
+
+    <p id="example1">
+        The left and right empty areas inside the Diamond Math Diagram is where you fill in the answers to the factoring problem.
+    </p>
+    
+    <ol id="example1">
+        <li>
+            Your goal is to find two numbers that add to equal 5 and the same two numbers must also multiply to equal 6.
+        </li>
+        <li>
+            There will only be two numbers that will ever meet both conditions.
+        </li>
+        <li>
+            Fill in both numbers to the left and right sides of the "X". These two numbers will be the main part of your answer.  It does not matter which number you write on the left or right sides.  It is the two numbers that is important, not which side you fill them in to the diagram. We will still get the same answer either way! Cool, huh?
+        </li>
+    </ol>
+
+    <p id="example1">
+        Take a moment to determine the two numbers that satisfy the criteria for the problem above. Then type them into the 2 boxes below and click on the "Check Answer" button to see if you got it right!
+        Before clicking on the REVEAL THE SOLUTION, ................
+    </p>
+    <table id="tableId">  
+        <tr>
+            <td>
+                <div id="numberText">
+                    First Number: <br>
+                        <input type="text" id="varA">
+                </div>
+            </td>
+            <td> 
+                Second Number: <br>
+                <input type="text" id="varB">
+            </td>
+            <td>
+                <button 
+                    type="submit" 
+                    id="checkAnswer" 
+                    onclick="myCalc()">
+                    CHECK YOUR ANSWER
+                </button>
+            </td>
+            <td>
+                <p id="demo"></p>
+            </td>
+        </tr>
+    </table>
+
+    <table id="tableId">
+        <tr>
+            <td>
+                <button 
+                    type="submit" 
+                    id="solutionPic" 
+                    onclick="revealAnswer()">
+                        REVEAL THE SOLUTION
+                </button>
+            </td>
+            <td>
+                <!-- <div id = "ExampleOneSolution"> -->
+                    <!-- <p> -->
+                <A HREF="./images/solution1.png">
+                    <img src="./solution.png" alt="solution" id="solution1" />
+                </A>
+                    <!-- </p> -->
+            </td>
+            <td>
+                <img src="./images/solution1.png" alt=" " id="solutionPic" />
+            </td>
+            <td> 
+                <p id="demo2"></p>
+            </td>
+        </tr>
+    </table>
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
+
+<!-- //////////////////////////////////////////////////////////////
+
+<div id = "blackhelmet">
+  <p><a href="./winthedayplayer.png">
+      <img src="./blackhelmet.png"
+      alt=" "
+      width="80px"
+      height="80px"
+      alt="blackhelmet"
+      img id="blackhelmet"></img>
+  </a></p>
+</div>
+
+<div id = "greenhelmet">
+  <p><a href="./oregonroster.png">
+      <img src="./ducks_green_helmet.png"
+      alt=" "
+      width="80px"
+      height="80px"
+      alt="greenhelmet"
+      img id="greenhelmet"></img>
+  </a></p>
+</div>
+
+<div id = "wingshelmet">
+  <p><a href="./footballschedule.png">
+      <img src="./ducks_wings_helmet.png"
+      alt=" "
+      width="80px"
+      height="80px"
+      alt="wingshelmet"
+      img id="wingshelmet"></img>
+  </a></p>
+</div>
+
+<div id = "yellowhelmet">
+  <p><a href="./autzen_secret.png">
+      <img src="./ducks_yellow_helmet.png"
+          alt=" "
+          width="80px"
+          height="80px"
+          alt="yellowhelmet"
+          img id="yellowhelmet"></img>
+  </a></p>
+</div>
+
+<p id="clickinstructions">Click each helmet for information about the Oregon Ducks!</p>
+</body>
+</html> -->
+
+
