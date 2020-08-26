@@ -67,7 +67,7 @@ h1 {
     margin: 10px;
 }
 /* TEXT-BOX:    ENTER THE FIRST AND SECOND NUMBERS */
-#varA, #varB, #varA2, #varB2, #varA3, #varB3 {
+#varA, #varB, #varA2, #varB2, #varA3, #varB3, #varA4, #varB4 {
     width: 10%;
     height: 50px;
     font-size: 1.5rem;
@@ -82,7 +82,7 @@ h1 {
     padding: 10px;
     font-family: 'Architects Daughter';
 }
-#myBtn, #myBtn2, #myBtn3, #myBtn4 {
+#myBtn, #myBtn2, #myBtn3, #myBtn4, #myBtn5, #myBtn6, #myBtn7 {
     width: 20%;
     height: 50px;
     font-size: 0.8rem;
@@ -97,7 +97,7 @@ h1 {
     padding: 10px;
     font-family: 'Architects Daughter';
 }
-#demo1, #demo3, #demo5 {
+#demo1, #demo3, #demo5, #demo7 {
     width: 20%;
     height: 30px;
     font-size: 1rem;
@@ -111,7 +111,7 @@ h1 {
     font-family: 'Architects Daughter';
     padding: 15px;
 }
-#demo2, #demo4, #demo6 {
+#demo2, #demo4, #demo6, #demo8 {
     width: 40%;
     height: 30px;
     font-size: 1rem;
@@ -125,7 +125,7 @@ h1 {
     font-family: 'Architects Daughter';
     padding: 15px;
 }
-#pic1 {
+#pic1, #pic2 {
     width: 30%;
     height: auto;
     margin-top: 15px;

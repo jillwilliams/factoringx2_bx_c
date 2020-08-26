@@ -55,3 +55,22 @@ const myCalc6 = () => {
     document.getElementById("demo6").innerHTML = myProblem6();
 }
 
+const myProblem7 = () => {
+    var a4 = document.getElementById("varA4").value;
+    var b4 = document.getElementById("varB4").value;
+    if (a4 == "4" && b4 == "6") {
+        return "Good Job!";
+    } else
+        return "Try Again!";
+};
+const myCalc7 = () => {
+    document.getElementById("demo7").innerHTML = myProblem7();
+}
+
+const myProblem8 = () => {
+    return "(x + 4)(x + 6) or (x + 6)(x + 4)";
+};
+const myCalc8 = () => {
+    document.getElementById("demo8").innerHTML = myProblem8();
+}
+
