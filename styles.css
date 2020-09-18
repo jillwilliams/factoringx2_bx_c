@@ -83,9 +83,23 @@ h1 {
     font-family: 'Architects Daughter';
 }
 #myBtn, #myBtn2, #myBtn3, #myBtn4, #myBtn5, #myBtn6, #myBtn7 {
-    width: 20%;
-    height: 50px;
+    width: 30%;
+    height: 60px;
     font-size: 0.8rem;
+    color: white;
+    background: black;
+    border: 2px red solid;
+    outline: 2px white solid;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 15px;
+    font-family: 'Architects Daughter';
+}
+#demo1, #demo3, #demo5, #demo7 {
+    width: 20%;
+    height: 60px;
+    font-size: 1rem;
     color: white;
     background: black;
     border: 2px red solid;
@@ -93,26 +107,10 @@ h1 {
     text-align: center;
     margin-left: 40%;
     margin-right: 40%;
-    margin-top: 15px;
-    padding: 10px;
     font-family: 'Architects Daughter';
-}
-#demo1, #demo3, #demo5, #demo7 {
-    width: 20%;
-    height: 30px;
-    font-size: 1rem;
-    color: white;
-    background: black;
-    border: 2px red solid;
-    outline: 2px white solid;
-    text-align: center;
-    margin-left: 39%;
-    margin-right: 39%;
-    font-family: 'Architects Daughter';
-    padding: 15px;
 }
 #demo2, #demo4, #demo6, #demo8 {
-    width: 40%;
+    width: 80%;
     height: 30px;
     font-size: 1rem;
     color: white;
@@ -120,12 +118,12 @@ h1 {
     border: 2px red solid;
     outline: 2px white solid;
     text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
     font-family: 'Architects Daughter';
     padding: 15px;
 }
-#pic1, #pic2 {
+#pic1, #pic2, #pic4, #pic5, #pic6, #pic7, #pic8, #pic9, #pic10, #pic11, #pic12, #pic13, #pic14 {
     width: 30%;
     height: auto;
     margin-top: 15px;
